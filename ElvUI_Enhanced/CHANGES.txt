@@ -1,0 +1,18 @@
+tag 190120c8675a6ee42ca6eba7616a8df0b7d280e2 3.3.8
+Author:	Feraldin <nickbock@hoarder.bocky.nl>
+Date:	Sat Jun 29 13:13:44 2019 +0200
+
+updated for 8.2
+
+commit e8bad525f5b0c35e068a52bb4cf36d15272e4516
+Author: Nick <git@bockmeulen.nl>
+Date:   Sat Jun 29 13:12:47 2019 +0200
+
+    updated progression
+
+commit 06e66d65acbc04f7d6cf91b5e54b9c9b15c76872
+Author: Nick <git@bockmeulen.nl>
+Date:   Sat Jun 29 10:30:24 2019 +0200
+
+    Updated for 8.2
+

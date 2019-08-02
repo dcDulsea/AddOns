@@ -1,0 +1,42 @@
+lightweight tag e0af69e43bd912a35d5bb49b1fddb2016ff5c40c 8.2.6
+Author:	MysticalOS <mysticalosx@gmail.com>
+Date:	Wed Jul 17 22:36:02 2019 -0400
+
+commit e0af69e43bd912a35d5bb49b1fddb2016ff5c40c
+Author: MysticalOS <mysticalosx@gmail.com>
+Date:   Wed Jul 17 22:36:02 2019 -0400
+
+    prepare new release to fix a serious regression from last release that utterly broke ashvane phase change detection do to some factoring.
+
+commit 333837416463c5f692366282525a200d1db8a743
+Author: MysticalOS <mysticalosx@gmail.com>
+Date:   Wed Jul 17 21:56:14 2019 -0400
+
+    and another antispam tweak on that
+
+commit 4c2939a13abd6afb1187725721aa3874ece4f69a
+Author: MysticalOS <mysticalosx@gmail.com>
+Date:   Wed Jul 17 21:54:29 2019 -0400
+
+    Fixed briny near warning to aggregate multiple targets, as well as fix bug where it didn't give target names.
+
+commit 2c596aec48c5febb3420bf2043c3ab72b92befed
+Author: MysticalOS <mysticalosx@gmail.com>
+Date:   Wed Jul 17 21:16:40 2019 -0400
+
+    Fix a bug where hulk timer may persist into Phase 1.5/2 if a hulk activated as she transitions.
+
+commit 54d6db0bc159654683d708cb5fbf7c07aa32ec86
+Author: MysticalOS <mysticalosx@gmail.com>
+Date:   Wed Jul 17 14:55:09 2019 -0400
+
+    Fix built in music media
+    Gave turtles quest access to all media by default, always.
+
+commit f1097ae3e44ee5a68208f90e96549e11ab6ca8fa
+Author: MysticalOS <mysticalosx@gmail.com>
+Date:   Wed Jul 17 01:04:10 2019 -0400
+
+    Disable the swap warning on Court, because it's kind of fight that the less you swap the better, it's one of those things it's better DBM doesn't try to automate for you. Plus since i'm no longer anyones main tank, i'm not really in a position to know these numbers anymore anyways, so it makes sense to just remove the tank swap warning.
+    Changed aggregation on sivara to be even more lose. it'll mean even slower personal warning when color changes, but also less likely to double warn/double yell when you're just clearing your stacks.
+
