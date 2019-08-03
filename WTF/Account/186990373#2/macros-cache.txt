@@ -1,0 +1,59 @@
+VER 3 0000000000000003 "  保护" "SPELL_HOLY_SEALOFPROTECTION"
+#showtooltip 保护之手 
+/stopcasting 
+/cancelAura 保护之手 
+/cast 保护之手
+END
+VER 3 0000000000000002 "Decursive" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/cast [target=mouseover,nomod,exists] 净化腐蚀;  [target=mouseover,exists,mod:ctrl] 旋风; [target=mouseover,exists,mod:shift] 净化腐蚀
+END
+VER 3 0000000000000008 "SM" "INV_HELMET_21"
+/startattack
+/castsequence reset=5/combat 元素释放,烈焰震击,风暴打击,熔岩猛击,大地震击,灼热图腾,风暴打击,大地震击,熔岩猛击,元素释放,烈焰震击,风暴打击,大地震击,熔岩猛击,风暴打击,大地震击
+/script UIErrorsFrame:Clear()
+END
+VER 3 0000000000000006 "SMaoe" "SPELL_SHAMAN_FIRENOVA"
+/startattack
+/castsequence reset=5/combat 烈焰震击,元素释放,熔岩猛击,火焰新星,熔岩图腾,风暴打击,火焰新星,闪电链,火焰新星
+/script UIErrorsFrame:Clear()
+END
+VER 3 0000000000000009 "凤凰" "INV_MISC_QUESTIONMARK"
+/equipslot 16 宇宙灌注者
+/equipslot 17 相位壁垒
+END
+VER 3 000000000000000C "凤凰" "SPELL_HOLY_AVENGINEWRATH"
+/equipslot 16 汲魂者
+/equipslot 17 黑角的强固壁垒
+END
+VER 3 000000000000000A "凤凰  2" "INV_MISC_QUESTIONMARK"
+/equipslot 16 诺卡尔德，死亡之源
+/equipslot 17 英勇意志的晨星
+END
+VER 3 000000000000000B "凤凰  无尽之刃" "INV_MISC_QUESTIONMARK"
+/equipslot 16 无尽之刃
+END
+VER 3 0000000000000007 "坐骑" "Ability_Mount_Charger"
+/RandomMount
+END
+VER 3 000000000000000E "招人" "INV_MISC_QUESTIONMARK"
+/5 
+END
+VER 3 0000000000000004 "无敌" "SPELL_HOLY_DIVINESHIELD"
+#showtooltip 圣盾术 
+/stopcasting 
+/cancelAura 圣盾术 
+/cast 圣盾术
+END
+VER 3 0000000000000010 "死爪火麟龙人" "INV_MISC_QUESTIONMARK"
+/target 死爪火麟龙人,死爪狂乱者
+/cast 自动攻击
+END
+VER 3 000000000000000F "死爪狂乱者" "INV_MISC_QUESTIONMARK"
+/target 死爪狂乱者
+/cast 自动攻击
+END
+VER 3 000000000000000D "灵魂治愈 " "132815"
+#showtooltips 灵魂治愈
+/cast [target=午市已到] 灵魂治愈
+END

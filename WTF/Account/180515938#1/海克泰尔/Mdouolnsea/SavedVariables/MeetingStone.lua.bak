@@ -1,0 +1,60 @@
+
+MEETINGSTONE_CHARACTER_DB = {
+	["profileKeys"] = {
+		["Mdouolnsea - 海克泰尔"] = "Mdouolnsea - 海克泰尔",
+	},
+	["profiles"] = {
+		["Mdouolnsea - 海克泰尔"] = {
+			["appShine"] = "80100.01",
+			["version"] = "80100.01",
+			["recent"] = {
+				["2-138-644-0"] = {
+					{
+						["role"] = "DAMAGER",
+						["name"] = "Androsia-海克泰尔",
+						["iLvl"] = 430,
+						["time"] = 1564724194,
+						["class"] = 4,
+						["leader"] = true,
+						["bTag"] = "AaronCHEN#51885",
+					}, -- [1]
+					{
+						["role"] = "HEALER",
+						["name"] = "这波跪怪我咯-海克泰尔",
+						["iLvl"] = 404,
+						["time"] = 1564724194,
+						["class"] = 2,
+						["bTag"] = "优秀#51825",
+					}, -- [2]
+					{
+						["role"] = "DAMAGER",
+						["name"] = "午市已到-海克泰尔",
+						["iLvl"] = 404,
+						["time"] = 1564724194,
+						["class"] = 3,
+						["bTag"] = "Robinson#5233",
+					}, -- [3]
+					{
+						["role"] = "TANK",
+						["name"] = "Äâåæãä-白银之手",
+						["iLvl"] = 373,
+						["time"] = 1564724081,
+						["class"] = 1,
+						["bTag"] = "拎壶冲#5966",
+					}, -- [4]
+				},
+			},
+			["settings"] = {
+				["storage"] = {
+					["y"] = 0,
+					["x"] = -46.22183227539063,
+					["scale"] = 1,
+				},
+			},
+			["lastSearchCode"] = "6-0-0-0",
+			["searchHistoryList"] = {
+				"6-0-0-0", -- [1]
+			},
+		},
+	},
+}

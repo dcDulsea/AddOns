@@ -1,0 +1,37 @@
+
+SkadaDB = {
+	["namespaces"] = {
+		["LibDualSpec-1.0"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Mdouolnsea - 海克泰尔"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["windows"] = {
+				{
+					["y"] = 28.59249305725098,
+					["point"] = "BOTTOMRIGHT",
+					["mode"] = "伤害",
+					["barwidth"] = 313.4813232421875,
+					["background"] = {
+						["height"] = 237.9259033203125,
+					},
+					["x"] = -240.892578125,
+				}, -- [1]
+			},
+			["report"] = {
+				["mode"] = "伤害",
+			},
+			["versions"] = {
+				["1.6.7"] = true,
+				["1.6.4"] = true,
+				["1.6.3"] = true,
+			},
+			["modeclicks"] = {
+				["伤害"] = 1,
+			},
+		},
+	},
+}
